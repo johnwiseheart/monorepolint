@@ -592,6 +592,16 @@
     libnpm "^2.0.1"
     write-file-atomic "^2.3.0"
 
+"@monorepolint/rules@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@monorepolint/rules/-/rules-0.4.0.tgz#df1a3e5a9f7ef486a5814764245d671de98df541"
+  integrity sha512-TqI6AIjSqvWUiEDQbHF6a7Z1vXJStMYqIaKw/+sE/V68g0VRc4A8/aDG4gszYpSabrWS2Tpwr17nAf+XTnGdaQ==
+  dependencies:
+    "@monorepolint/core" "^0.4.0"
+    "@monorepolint/utils" "^0.4.0"
+    jest-diff "^23.6.0"
+    runtypes "^4.0.0"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npmjs.org/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -625,11 +635,6 @@
     "@types/events" "*"
     "@types/minimatch" "*"
     "@types/node" "*"
-
-"@types/jest-diff@^20.0.0":
-  version "20.0.1"
-  resolved "https://registry.yarnpkg.com/@types/jest-diff/-/jest-diff-20.0.1.tgz#35cc15b9c4f30a18ef21852e255fdb02f6d59b89"
-  integrity sha512-yALhelO3i0hqZwhjtcr6dYyaLoCHbAMshwtj6cGxTvHZAKXHsYGdff6E8EPw3xLKY0ELUTQ69Q1rQiJENnccMA==
 
 "@types/jest@^24.0.0":
   version "24.0.0"
@@ -5697,6 +5702,11 @@ runtypes@^4.0.0:
   integrity sha512-fMWXQ3jofaiQn5UZtHOm+BQyApa1c5m4W1r7DOfRST80sGQDN6b2XDwoQgGedE/B74W/QPSNPjVaSAkuU1ueqw==
   dependencies:
     reflect-metadata "^0.1.13"
+
+runtypes@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/runtypes/-/runtypes-4.0.1.tgz#5ab748a697cd541de4b2fe21549d24c27ca05323"
+  integrity sha512-xEsbihoFvnUzRno7MWzq18eUcBVlY1Ydtrb9tVaYyK7DW1UtFbFlUf84L2Au9ZbDRfbEnx/edKrf95YlOIZ61w==
 
 rxjs@^6.1.0, rxjs@^6.3.3:
   version "6.3.3"
