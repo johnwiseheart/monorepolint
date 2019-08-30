@@ -592,6 +592,16 @@
     libnpm "^2.0.1"
     write-file-atomic "^2.3.0"
 
+"@monorepolint/rules@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@monorepolint/rules/-/rules-0.4.0.tgz#df1a3e5a9f7ef486a5814764245d671de98df541"
+  integrity sha512-TqI6AIjSqvWUiEDQbHF6a7Z1vXJStMYqIaKw/+sE/V68g0VRc4A8/aDG4gszYpSabrWS2Tpwr17nAf+XTnGdaQ==
+  dependencies:
+    "@monorepolint/core" "^0.4.0"
+    "@monorepolint/utils" "^0.4.0"
+    jest-diff "^23.6.0"
+    runtypes "^4.0.0"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npmjs.org/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -626,11 +636,6 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/jest-diff@^20.0.0":
-  version "20.0.1"
-  resolved "https://registry.yarnpkg.com/@types/jest-diff/-/jest-diff-20.0.1.tgz#35cc15b9c4f30a18ef21852e255fdb02f6d59b89"
-  integrity sha512-yALhelO3i0hqZwhjtcr6dYyaLoCHbAMshwtj6cGxTvHZAKXHsYGdff6E8EPw3xLKY0ELUTQ69Q1rQiJENnccMA==
-
 "@types/jest@^24.0.0":
   version "24.0.0"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-24.0.0.tgz#848492026c327b3548d92be0352a545c36a21e8a"
@@ -648,10 +653,15 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*", "@types/node@^11.9.0":
+"@types/node@*":
   version "11.11.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-11.11.3.tgz#7c6b0f8eaf16ae530795de2ad1b85d34bf2f5c58"
   integrity sha512-wp6IOGu1lxsfnrD+5mX6qwSwWuqsdkKKxTN4aQc4wByHAKZJf9/D4KXPQ1POUjEbnCP5LMggB0OEFNY9OTsMqg==
+
+"@types/node@^12.7.3":
+  version "12.7.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.3.tgz#27b3f40addaf2f580459fdb405222685542f907a"
+  integrity sha512-3SiLAIBkDWDg6vFo0+5YJyHPWU9uwu40Qe+v+0MH8wRKYBimHvvAOyk3EzMrD/TrIlLYfXrqDqrg913PynrMJQ==
 
 "@types/yargs@^12.0.2":
   version "12.0.9"
